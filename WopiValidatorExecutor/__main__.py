@@ -42,3 +42,6 @@ def main():
     from .WopiValidatorExecutor import execute_wopi_validator
 
     execute_wopi_validator(args.s, payload)
+
+if __name__ == "__main__":
+    main()
